@@ -1,0 +1,136 @@
+    /* ============ LAYOUT SECTION ============= */
+
+body{
+    /* background-color: rgba(154, 66, 37, 0.564);
+    /* margin: 0; */
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+#container{
+    width: 968px;
+    margin: 0px auto;
+}
+#header{
+    background-color: rgba(175, 12, 12, 0.391);
+    margin: 10px;
+    border-radius: 5px;
+    height: 80px;
+    width: auto;
+}
+
+#navbar ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(28, 23, 23, 0.391);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar ul li{
+    display: inline-block; 
+}
+
+#navbar ul li a{
+    color: white;
+    padding: .2rem 1rem;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#navbar ul li a:hover{
+
+    color: black;
+    /* background-color: rgb(154, 66, 37); */
+    background-color: rgb(246, 244, 244);
+    animation: 0.7s;
+}
+
+.main{
+background-color: beige;
+margin: 10px 280px 10px 10px; 
+padding: 20px;
+border-radius: 5px;
+font-size: 110%;
+}
+
+#footer{
+    background-color:rgba(175, 12, 12, 0.391) ;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+    margin: 10px;
+    font-size: 90%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    }
+  
+#footer ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#footer ul li{
+    display: inline-block; 
+}
+
+#footer ul li a{
+    color: white;
+    padding: .2rem 1rem;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+}
+
+#footer ul li a:hover{
+
+    color: black;
+    /* background-color: rgb(154, 66, 37); */
+    background-color: #fff;
+    animation: 0.7s;
+}
+
+/* ================ LAYOUT SIDEBAR STYLING =============== */
+.sideright{
+    background-color: beige;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 20px;
+    float: right;
+    border-radius: 5px;
+    width: 220px;
+    font-size: 105%;
+    clear: right;
+}
+.sideimage{
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+    float: right;
+    border-radius: 5px;
+    width: 262px;
+    font-size: 105%;
+    clear: right;
+    opacity: 1.0;
+    transition: 0.6s;
+}
+.sideimage:hover{
+    opacity: 0.4;
+}
+
+/* ============ HEADINGS STYLING========= */
+
+h1{
+    font-size: 120%;
+    color: brown;
+}
+h2{
+    font-size: 120%;
+    color: rgb(248, 124, 15);
+}
+

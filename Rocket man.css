@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+}/*
+#nav_bar{
+    background-color: red
+    height: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inlline;
+  
+} */
+
+#navbar{
+    height: 35px;
+    font-weight: bold;
+    font-size:  28px;
+    font: tahoma;
+    background-color: blueviolet;
+    color:blanchedalmond;
+}
+.container{
+    background-image:linear-gradient(rgba(1, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('Roket Learn website/background.jpg');
+    backface-visibility: initial;
+    color:white;
+    position: fixed;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 100px;
+    position: absolute;
+    height: 500px;
+    right: 75px;
+    left: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 200px;
+    margin-bottom: auto;
+
+}   
+#span1{
+    font-size: 65px;
+}
+#span2{
+    font-size: 25px;
+}
+.flexbox{
+    /* font: weight 100px;  */
+    font-style: normal;
+    /* font-size: 25px; */
+    color:rgb(255, 255, 255,);
+    padding-left: 55px;
+    padding-right: 55px;
+    
+ }
+ #contact_button{
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 50px;
+    padding-top: 50px;
+    margin: 10px 0px 0px auto;
+    
+ }
+#second_section{ 
+        padding: 0px 0px 0px 50px;
+        margin: 145px auto 45px  auto;
+        display: block;
+        color: black;
+        /* background-color: rgb(254, 254, 254); */
+        font-size: 28px;
+        font-style: italic;
+        padding-block: 40px;
+}
+#grid{
+    color: black;
+    padding: 550px 0px 0px  50px;
+    background-image: url('Roket Learn website/nasa.jpg');
+    margin: 125px auto 150px auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+git
